@@ -154,3 +154,42 @@ form button:hover {
     display: block;
     margin: 1.5rem auto 0;
 }
+/*Equipo en Contacto*/
+.equipo{
+    padding: 10px 20px;
+}
+
+.equipo-grid{
+    display: flex;
+    flex-direction: column;
+}
+
+.equipo-card{
+    display: flex;
+    align-items: center;
+    border: 1px solid #e0e0e0;
+    border-radius:12px;
+    overflow: hidden;
+    margin: 5px;
+    max-width: 100%;
+}
+
+.equipo-foto{
+    width:90px;
+    height:90px;
+}
+
+.equipo-info{
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+}
+.equipo-info h3{
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.equipo-info a{
+    margin:0;
+    text-decoration: none;
+}
